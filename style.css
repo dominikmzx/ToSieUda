@@ -1,7 +1,121 @@
 body {
-	background: #3c3c3c;
 	font-family: "helvetica", sans-serif;
-	font-size:18px;
+	background: url(img/stripes-light.png);
+	font-size: 20px;
 	line-height: 1.5;
-	color:#ff0000;
+	margin: 0px;
+	padding: 0px;
 }
+
+header {
+	background:#8d8d8d;
+	opacity: 0.8;
+	border-bottom: 2px solid #002faf;
+	min-height: 120px;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	
+}
+
+.logo {
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align:center;
+	letter-spacing: 2px;
+	font-weight: 600;
+	float:left;
+	min-width:261px;
+	margin:10 0 20 0;
+	padding:10;
+	background: #ffffff;
+	border-radius: 20px; 
+	
+}
+
+.logo:hover {
+	cursor: default;
+	-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.46);
+	-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.46);
+	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.46);
+	transition: all 0.3s cubic-bezier(.42, 0, .15, .99);
+}
+
+.tuning {
+	color:#ff9200;
+}
+
+.logo:hover .tuning {
+	color:#002faf;
+	transition: all 0.3s cubic-bezier(.42, 0, .15, .99);
+}
+
+.tuning:hover {
+	color:#002faf;
+	transition: all 0.3s linear;
+}
+
+nav {
+	float:right;
+	margin-top:10px;
+}
+
+
+ul {
+	list-style: none;
+}
+
+
+nav ul li {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	float:left;
+	display:block;
+	font-size:20px;
+	padding:10px;
+	position:relative;
+	z-index: 1000;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:#000;
+	display:block;
+	padding:5px;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	color:#002faf;
+	background:#fff;
+	border-radius: 5px;
+}
+
+nav ul li ul {
+	
+	background:#c9c9c9;
+	margin:0;
+	padding:10px;
+	display:block;
+	position:absolute;
+	width:10px;
+	
+}
+
+nav ul li ul li {
+	padding: 0px;
+	text-align: center;
+}
+
+nav ul li ul li a {
+	color:red;
+	float:right;
+	margin-top:10;
+	padding:1;
+	text-align:center;
+/*	position: relative;*/
+}
+

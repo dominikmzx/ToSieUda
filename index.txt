@@ -19,8 +19,8 @@
 			<nav>
 				<ul>
 					<li><a href="#"><span class="tuning">Rozwiń</span></a>
-						<ul class="rozwijanie">
-							<li><a href ="#">Abaa</a></li>
+						<ul>
+							<li><a href ="#">Abaaba</a></li>
 							<li><a href ="#">Siema</a></li>
 							<li><a href ="#">Dupa</a></li>
 							<li><a href ="#">Rtyhg</a></li>
