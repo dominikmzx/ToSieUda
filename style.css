@@ -29,7 +29,7 @@ header {
 	float:left;
 	min-width:261px;
 	margin:10 0 20 0;
-	padding:10;
+	padding:10px;
 	background: #ffffff;
 	border-radius: 20px; 
 	
@@ -59,63 +59,47 @@ header {
 
 nav {
 	float:right;
-	margin-top:10px;
 }
 
-
-ul {
-	list-style: none;
-}
-
-
-nav ul li {
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	float:left;
-	display:block;
-	font-size:20px;
-	padding:10px;
+.rozwin {
+	float: left;
+	margin-top:35px;
 	position:relative;
-	z-index: 1000;
 }
 
-nav ul li a {
+.rozwin a {
 	text-decoration: none;
-	color:#000;
-	display:block;
-	padding:5px;
-	text-align: center;
-	transition: all 0.3s ease-in-out;
-}
-
-nav ul li a:hover {
-	color:#002faf;
-	background:#fff;
-	border-radius: 5px;
-}
-
-nav ul li ul {
-	
-	background:#c9c9c9;
-	margin:0;
-	padding:10px;
-	display:block;
-	position:absolute;
-	width:10px;
-	
-}
-
-nav ul li ul li {
-	padding: 0px;
-	text-align: center;
-}
-
-nav ul li ul li a {
 	color:red;
-	float:right;
-	margin-top:10;
-	padding:1;
-	text-align:center;
-/*	position: relative;*/
+	text-transform: uppercase;
+	margin-right: 10px;
+	padding:10px;
+	letter-spacing: 1px;
+	border:1px solid red;
+}
+
+.rozwijanaLista {
+	position:absolute;
+  margin-top:6px;
+	width:100%;
+}
+
+.rozwijanaLista a {
+	color:blue;
+	border: 1px solid blue;
+	display:block;
+}
+
+.resztaMenu {
+	float: left;
+	margin-top:35px;
+}
+
+.resztaMenu a {
+	text-decoration: none;
+	color:green;
+	text-transform: uppercase;
+	margin-right: 10px;
+	padding:10px;
+	letter-spacing: 1px;
 }
 
