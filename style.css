@@ -69,24 +69,43 @@ nav {
 
 .rozwin a {
 	text-decoration: none;
-	color:red;
+	color:#ff9200;
 	text-transform: uppercase;
-	margin-right: 10px;
+	margin-right: 0px;
 	padding:10px;
 	letter-spacing: 1px;
-	border:1px solid red;
+/*	border:1px solid red;*/
 }
 
 .rozwijanaLista {
 	position:absolute;
   margin-top:6px;
 	width:100%;
+	z-index:100;
+	display:none;
 }
 
 .rozwijanaLista a {
-	color:blue;
-	border: 1px solid blue;
+	color:#000;
+/*	border: 1px solid blue;*/
 	display:block;
+}
+
+.rozwin a:hover {
+	color:#002faf;
+}
+
+.rozwin:hover .rozwijanaLista {
+	display:block;
+	background: #e1e1e1;
+	-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.46);
+	-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.46);
+	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.46);
+}
+
+.rozwijanaLista a:hover{
+	background: #bdbdbd;
+	color:#002faf;
 }
 
 .resztaMenu {
@@ -96,10 +115,12 @@ nav {
 
 .resztaMenu a {
 	text-decoration: none;
-	color:green;
+	color:#000;
 	text-transform: uppercase;
-	margin-right: 10px;
 	padding:10px;
 	letter-spacing: 1px;
 }
 
+.resztaMenu a:hover {
+	color:#002faf;
+}
